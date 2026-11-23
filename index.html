@@ -84,6 +84,11 @@ a{color:inherit;text-decoration:none}
 @keyframes ping{0%{transform:scale(.6);opacity:.45}100%{transform:scale(2.2);opacity:0}}
 
 /* ---------- Reading key ---------- */
+.about{display:grid;grid-template-columns:240px 1fr;gap:40px;padding:56px 0 8px}
+.about h2{font-size:1.5rem;line-height:1.2;letter-spacing:-.01em}
+.about p{max-width:40em;font-size:1.08rem}
+.about p + p{margin-top:12px;color:var(--ink-2)}
+@media (max-width:860px){.about{grid-template-columns:1fr;gap:12px;padding-top:44px}}
 .key{
   margin:56px 0 8px;padding:20px 24px;border-radius:14px;
   background:var(--surface);border:1px solid var(--line);
@@ -196,6 +201,14 @@ footer{border-top:1px solid var(--line);margin-top:8px;padding:28px 0 44px;color
 
 <main class="wrap">
 
+  <section class="about" aria-labelledby="about-title">
+    <h2 id="about-title">About me</h2>
+    <div>
+      <p>I’m a growth manager in a work-study program at Manelto, a 9-person Microsoft partner near Lille that helps SMEs and mid-sized companies adopt Microsoft 365, Dynamics 365 and Power BI.</p>
+      <p>With no marketing team behind me, I built the growth engine end to end: website rebuild, local SEO, prospecting automation and CRM data. That’s the experience I bring to each role below.</p>
+    </div>
+  </section>
+
   <div class="key">
     <p>Each problem reads the same way:</p>
     <div class="items">
@@ -216,7 +229,7 @@ footer{border-top:1px solid var(--line);margin-top:8px;padding:28px 0 44px;color
       <div class="grid">
         <div>
           <h3>Why this role</h3>
-          <p>Owning growth end to end, from traffic to qualified leads, with a direct impact on revenue.</p>
+          <p>A 170-person Lille insurer where growth is a core business lever, not a side team: I’d own acquisition end to end, from traffic to qualified leads.</p>
         </div>
         <div class="proof">
           <h3>What I bring</h3>
@@ -235,15 +248,15 @@ footer{border-top:1px solid var(--line);margin-top:8px;padding:28px 0 44px;color
     </div>
     <div class="main">
       <h2>Project Manager, Digitalisation &amp; AI</h2>
-      <p class="problem">Eurasanté needs <span class="o">its teams to work faster and better with AI</span>, but <span class="b">digital initiatives stay scattered and rarely make it into daily use</span>, so they’re hiring someone to <span class="j">turn AI projects into tools people actually adopt</span>.</p>
+      <p class="problem">Eurasanté needs to <span class="o">get its teams working faster and better with AI</span>, but <span class="b">digital initiatives stay scattered and rarely make it into daily use</span>, so they’re hiring someone to <span class="j">turn AI projects into tools people actually adopt</span>.</p>
       <div class="grid">
         <div>
           <h3>Why this role</h3>
-          <p>Leading digital projects where success means real adoption, not just new tools.</p>
+          <p>Eurasanté has supported the region’s health ecosystem for over 20 years: making its own teams faster with AI means more founders and researchers helped.</p>
         </div>
         <div class="proof">
           <h3>What I bring</h3>
-          <p>I planned and ran a full-year marketing program across several teams and formats.</p>
+          <p>I planned a full-year marketing program: one client project every two weeks, turned into case studies, videos, mailings and LinkedIn posts.</p>
           <span class="num">242</span>
           <span class="num-label">actions planned over 12 months</span>
         </div>
@@ -258,17 +271,17 @@ footer{border-top:1px solid var(--line);margin-top:8px;padding:28px 0 44px;color
     </div>
     <div class="main">
       <h2>Product Owner, Collaborative Tools</h2>
-      <p class="problem">Exotec needs <span class="o">its 1,500 employees across three continents to collaborate efficiently</span>, but <span class="b">tools get deployed without being truly adopted</span>, so they’re hiring someone to <span class="j">align business needs and IT and drive real usage</span>.</p>
+      <p class="problem">Exotec needs to <span class="o">get its 1,500 employees across three continents collaborating efficiently</span>, but <span class="b">tools get deployed without being truly adopted</span>, so they’re hiring someone to <span class="j">align business needs and IT and drive real usage</span>.</p>
       <div class="grid">
         <div>
           <h3>Why this role</h3>
-          <p>Being the bridge between business needs and tech teams, on tools people use every day.</p>
+          <p>Exotec is a Lille-born robotics company that went global: shaping how 1,500 people across three continents work together is a rare product challenge.</p>
         </div>
         <div class="proof">
           <h3>What I bring</h3>
-          <p>I audited our CRM and found a data issue that was hiding half of our targets.</p>
+          <p>I audited our CRM and flagged a data issue that was hiding nearly half of our targets from sales filters.</p>
           <span class="num">4,331</span>
-          <span class="num-label">records fixed</span>
+          <span class="num-label">records flagged out of 9,232 contacts</span>
         </div>
       </div>
     </div>
